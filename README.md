@@ -18,18 +18,14 @@ This is my Technical Documentation page for freeCodeCamp's fourth [basic front e
 - [x] Additionally, the navbar should contain link (`a`) elements with the class of `nav-link`. There should be one for every element with the class `main-section`.
 - [x] The `header` element in the navbar must come before any link (`a`) elements in the navbar.
 - [x] Each element with the class of `nav-link` should contain text that corresponds to the `header` text within each `section` (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
-- [x]
-- [x]
-- [x]
-- [x] When I click the `#submit` element, the email is submitted to a static page (use this mock URL: [https://www.freecodecamp.com/email-submit](https://www.freecodecamp.com/email-submit)) that confirms the email address was entered and that it posted successfully.
-- [x] The navbar should always be at the top of the viewport.
-- [x] My product landing page should have at least one media query.
-- [x] My product landing page should utilize CSS flexbox at least once.
+- [x] When I click on a navbar element, the page should navigate to the corresponding section of the `main-doc` element (e.g. If I click on a `nav-link` element that contains the text "Hello world", the page navigates to a `section` element that has that id and contains the corresponding `header`.
+- [x] On regular sized devices (laptops, desktops), the element with `id="navbar"` should be shown on the left side of the screen and should always be visible to the user.
+- [x] My Technical Documentation page should use at least one media query.
 
 ## Tools Used
 
 - [HTML5] Markup Language
-- [CSS 3 Flex Box](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+- [CSS 3] only
 
 ## Install and Build
 
@@ -38,6 +34,6 @@ Nothing to install, just clone this repo and you are good to go.
 #### Clone this repo
 
 ```bash
-git clone https://github.com/macnick/FCC-Landing-Page.git
-cd FCC-Landing-Page
+git clone https://github.com/macnick/FCC-Technical-Documentation-Page.git
+cd FCC-Technical-Documentation-Page
 ```
